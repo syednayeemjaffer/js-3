@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <main>
+        <article id="container">
+            <div id="date">
+                <p id="pdata">Date</p>
+                <input id="input1" type="number">
+                <small id="s1">invalid</small>
+                
+            </div>
+            <div id="month">
+                <p>Month</p>
+                <input id="input2" type="number">
+                <small id="s2">invalid</small>
+                
+            </div>
+            <div id="year">
+                <p>Year</p>
+                <input id="input3" type="number">
+                <small id="s3">invalid</small>
+            </div>
+        </article>
+            
+            
+            
+        <div id="buttondiv">
+            <button id="button" onclick="output()">
+                <img src="assets/images/icon-arrow.svg" alt="">
+            </button>
+        </div>
+        <div id="output">
+            <h1 id="output1"><span id="spand">--</span> DAYS</h1>
+            <h1 id="output2"><span id="spanm">--</span> MONTHS</h1>
+            <h1 id="output3"><span id="spany">--</span> YEARS</h1>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html> 

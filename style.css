@@ -1,0 +1,91 @@
+*{
+    font-family: "Poppins";
+    font-weight: 800;
+    font-style: normal;
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+main{
+    min-height: 25rem;
+    min-width: 20rem;
+    border-bottom-right-radius:100px;
+    box-shadow: 0 0 2px black;
+}
+#container{
+    display: flex;
+}
+p{
+    font-size: 13px;
+    color: hsl(0, 1%, 44%);
+}
+#date , #month , #year{
+    margin-left: 1.7rem;
+    margin-top: 1rem;
+}
+input{
+    width: 4rem;
+    height: 2rem;
+}
+button{
+    background-color:#864cff;
+    border: none;
+    width: 3rem;
+    border-radius: 50px;
+    position: relative;
+    top: 1.8rem;
+    cursor: pointer;
+}
+#buttondiv{
+    width:18rem;
+    text-align: center;margin-left: 1rem;
+    border-bottom: rgb(178, 177, 177) solid 0.2px;
+}
+#output{
+    display: grid;
+    justify-content: center;
+    margin-top: 3rem;
+}
+span{
+    font-size: 3rem;
+    color: #864cff;
+}
+small{
+    color: red;
+    font-size: 7px;
+}
+@media screen and (min-width:700px) {
+    main{
+        min-width: 30rem;
+    }
+    input{
+        width: 6rem;
+    }
+    button{
+        left: 13rem;
+    }
+    #buttondiv{
+        width: 24rem;
+    }
+    #s1{
+        left: 25%;
+        font-size: 10px;
+    }
+    #s2{
+        left: 40%;
+        font-size: 10px;
+    }
+    #s3{
+        left: 55%;
+        font-size: 10px;
+    }
+}
+#s1,#s2,#s3{
+    display: block;
+    
+}
